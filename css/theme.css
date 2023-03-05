@@ -185,7 +185,7 @@ sup{
 }
 a{
     color:#fff;
-    text-decoration:underline
+    text-decoration:none
 }
 a:hover{
     color:#ccc
@@ -1578,11 +1578,11 @@ progress{
 }
 .table-light{
     --bs-table-bg: #FAA539;
-    --bs-table-striped-bg: #3e444a;
+    --bs-table-striped-bg: #df9d48;
     --bs-table-striped-color: #fff;
-    --bs-table-active-bg: #484e53;
+    --bs-table-active-bg: #865618;
     --bs-table-active-color: #fff;
-    --bs-table-hover-bg: #43494e;
+    --bs-table-hover-bg: #865618;
     --bs-table-hover-color: #fff;
     color:#fff;
     border-color:#484e53
@@ -1665,7 +1665,7 @@ progress{
     font-weight:400;
     line-height:1.5;
     color:#fff;
-    background-color:#2e3439;
+    background-color:#c28c2f;
     background-clip:padding-box;
     border:1px solid #F0D19B;
     -webkit-appearance:none;
@@ -1687,7 +1687,7 @@ progress{
 }
 .form-control:focus{
     color:#fff;
-    background-color:#2e3439;
+    background-color:#d18d17;
     border-color:#86b7fe;
     outline:0;
     box-shadow:0 0 0 .25rem rgba(13,110,253,.25)
@@ -1748,10 +1748,10 @@ progress{
     }
 }
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button{
-    background-color:#31373d
+    background-color:#c28c2f
 }
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button{
-    background-color:#31373d
+    background-color:#c28c2f
 }
 .form-control::-webkit-file-upload-button{
     padding:.375rem .75rem;
@@ -1875,7 +1875,7 @@ textarea.form-control-lg{
     font-weight:400;
     line-height:1.5;
     color:#fff;
-    background-color:#2e3439;
+    background-color:#c28c2f;
     background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
     background-repeat:no-repeat;
     background-position:right .75rem center;
@@ -2417,8 +2417,8 @@ textarea.form-control-lg{
 }
 .btn-primary{
     color:#fff;
-    background-color:#0d6efd;
-    border-color:#0d6efd
+    background-color:#eca934;
+    border-color:#f0d19c
 }
 .btn-primary:hover{
     color:#fff;
@@ -5927,7 +5927,7 @@ textarea.form-control-lg{
 }
 .bg-light{
     --bs-bg-opacity: 1;
-    background-color:rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important
+    background-color: #8E6531;
 }
 .bg-dark{
     --bs-bg-opacity: 1;
@@ -8565,7 +8565,7 @@ textarea.form-control-lg{
     }
 }
 .table a{
-    color:#0dcaf0
+    color:white
 }
 @media only screen and (min-width: 768px){
     .table th.position-sticky{
@@ -8610,7 +8610,7 @@ input[type=checkbox]:not(.form-check-input:not(.form-check-input)),input[type=ra
     height:1em;
     margin-top:.375em;
     vertical-align:top;
-    background-color:#2e3439;
+    background-color:#F0D19B;
     background-repeat:no-repeat;
     background-position:center;
     background-size:contain;
@@ -8961,7 +8961,7 @@ label.col-3.d-flex.align-items-center{
     max-height:400px
 }
 li.last.database{
-    margin-bottom:15px !important
+    margin-bottom:15px !important;
 }
 div#dataDisplay input,div#dataDisplay select{
     margin:0;
@@ -8995,7 +8995,7 @@ div#tablestatistics table{
 }
 .navbar-light .navbar-nav .nav-item.active{
     color:#fff;
-    background-color:#0d6efd
+    background-color:#FAA539
 }
 .navbar-light .navbar-nav .nav-link{
     color:rgba(255,255,255,.85)
@@ -10459,7 +10459,8 @@ a.close_gis_editor{
 }
 #pma_navigation #navipanellinks{
     padding:8px 10px;
-    background-color:#292d32
+    background-color:#8E6531;
+    margin-top: 10px;
 }
 #pma_navigation #navipanellinks a{
     display:inline-block;
@@ -10520,7 +10521,8 @@ select.pageselector{
 #pma_navigation_tree_content a.hover_show_full{
     position:relative;
     z-index:100;
-    vertical-align:sub
+    vertical-align:sub;
+    color: white;
 }
 #pma_navigation_tree{
     margin:0;
@@ -10555,8 +10557,8 @@ select.pageselector{
     min-height:16px
 }
 #pma_navigation_tree li.activePointer,#pma_navigation_tree li.selected{
-    color:#000;
-    background-color:#495057
+    color:#FFFFFF;
+    background-color:#8E6531
 }
 #pma_navigation_tree li .dbItemControls{
     padding-right:4px;
@@ -10711,7 +10713,7 @@ li.fast_filter.db_fast_filter{
     width:24px;
     height:40px;
     line-height:36px;
-    background:#222;
+    background:#8E6531;
     color:#555;
     font-weight:bold;
     position:fixed;
@@ -10735,7 +10737,7 @@ li.fast_filter.db_fast_filter{
     padding:2px 0
 }
 .pma_quick_warp .drop_list:hover .drop_button{
-    background:#333
+    background:#E89A37
 }
 .pma_quick_warp .drop_list:hover ul{
     display:block
@@ -10783,7 +10785,7 @@ li.fast_filter.db_fast_filter{
     padding:.3em;
     border:1px solid #6c757d;
     border-radius:.3em;
-    background:#6c757d;
+    background:#CF7B10;
     color:#fff;
     cursor:pointer
 }
@@ -10808,7 +10810,7 @@ canvas.designer{
     display:inline-block;
     overflow:hidden;
     text-align:left;
-    background-color:#1b1e21 !important
+    background-color:#E0B885 !important
 }
 canvas.designer *{
     behavior:url(#default#VML)
@@ -12187,7 +12189,7 @@ button.mult_submit:hover,button.mult_submit:focus{
     cursor:pointer
 }
 #pma_console .message span.action:hover,#pma_console .toolbar .button:hover,#pma_console .switch_button:hover{
-    background:#292d32
+    background:#CE872D
 }
 #pma_console .content{
     overflow-x:hidden;
