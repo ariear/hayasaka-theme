@@ -1,4 +1,4 @@
-# Hayasaka (WIP)
+# Hayasaka
 
 Waifu theme for phpMyAdmin
 
