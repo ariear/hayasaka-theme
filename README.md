@@ -2,8 +2,6 @@
 
 Waifu theme for phpMyAdmin
 
-- Supported versions: 5.1, 5.2
-
 ## Screen
 
 | | |
